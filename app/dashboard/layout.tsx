@@ -1,5 +1,5 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
- 
+// the page.tsx inside the dashboard fold will be automatically be nested inside a <Layout />
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
